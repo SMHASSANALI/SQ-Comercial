@@ -58,7 +58,7 @@ const Contact = () => {
                         </h2>
                         <div className='flex flex-col w-full space-y-3'>
                             {/* Full Name Input */}
-                            <div className='border border-black rounded-xl w-full px-8 py-2 flex flex-col shadow-md'>
+                            <div className='border border-charcoalPrimary-600 rounded-xl w-full px-8 py-2 flex flex-col shadow-md'>
                                 <label htmlFor="fullName" className='text-lg tracking-wider font-normal '>Full Name *</label>
                                 <input
                                     type="text"
@@ -72,7 +72,7 @@ const Contact = () => {
                             </div>
 
                             {/* Email Input */}
-                            <div className='border border-black rounded-xl w-full px-8 py-2 flex flex-col shadow-md'>
+                            <div className='border border-charcoalPrimary-600 rounded-xl w-full px-8 py-2 flex flex-col shadow-md'>
                                 <label htmlFor="email" className='text-lg tracking-wider font-normal '>Your Email *</label>
                                 <input
                                     type="email"
@@ -86,7 +86,7 @@ const Contact = () => {
                             </div>
 
                             {/* Company Name Input */}
-                            <div className='border border-black rounded-xl w-full px-8 py-2 flex flex-col shadow-md'>
+                            <div className='border border-charcoalPrimary-600 rounded-xl w-full px-8 py-2 flex flex-col shadow-md'>
                                 <label htmlFor="companyName" className='text-lg tracking-wider font-normal '>Company Name (optional)</label>
                                 <input
                                     type="text"

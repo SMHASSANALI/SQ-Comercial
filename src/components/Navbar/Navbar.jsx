@@ -11,7 +11,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className='z-[9999] w-full text-white bg-charcoalPrimary shadow-xl '>
+        <div className='z-[9999] w-full text-white bg-charcoalPrimary shadow-xl md:min-h-[10vh] min-h-[5vh]'>
             <div className='flex flex-row items-center justify-between mx-auto max-w-[1400px] py-1 px-4'>
                 <ScrollLink
                     to='Banner'

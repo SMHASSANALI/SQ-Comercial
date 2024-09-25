@@ -89,7 +89,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex flex-col md:flex-row justify-between w-full py-2'>
-                    <p className='text-sm text-charcoalPrimary-900 md:pb-0 pb-4'>Copyright © 2023 SQ Commercial Services. All Rights Reserved.</p>
+                    <p className='text-sm text-charcoalPrimary-900 md:pb-0 pb-4'>Copyright © 2024 SQ Commercial Services. All Rights Reserved.</p>
                     <p className='text-sm text-charcoalPrimary-900 md:pb-0'>Designed and developed by <a href="https://www.saskasolutions.com" target="_blank" className='text-orangeAccent'>Saska Solutions</a></p>
                 </div>
             </main>
