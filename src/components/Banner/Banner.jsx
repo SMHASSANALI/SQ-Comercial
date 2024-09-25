@@ -55,12 +55,13 @@ const Banner = () => {
                             variants={buttonVariants}
                         >
                             <ScrollLink
-                                to='About'
+                                to='Services'
                                 smooth={true}
                                 duration={500}
+                                offset={-70}
                                 className='cursor-pointer px-6 py-2 text-orangeAccent font-bold md:text-lg border border-orangeAccent'
                             >
-                                Learn More
+                                Our Services
                             </ScrollLink>
                         </motion.div>
                     </motion.div>

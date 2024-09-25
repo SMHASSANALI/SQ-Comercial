@@ -59,10 +59,10 @@ const Contact = () => {
             <main className='flex flex-col md:flex-row justify-center w-full max-w-[1400px] px-4'>
                 <div className='w-full md:w-4/12 flex flex-col items-start justify-center'>
                     <h4 className='font-bold tracking-wider mb-1'>Email Us</h4>
-                    <p className='font-normal text-charcoalPrimary-400 pb-6'>sqcommercial@sq.com</p>
+                    <p className='font-normal text-charcoalPrimary-400 pb-6'>info@sqcommercial.co.uk</p>
 
                     <h4 className='font-bold tracking-wider mb-1'>Call Us</h4>
-                    <p className='font-normal text-charcoalPrimary-400 pb-6'>(123) 456-7890</p>
+                    <p className='font-normal text-charcoalPrimary-400 pb-6'>+44 7818245108</p>
                 </div>
                 <div className='w-full md:w-8/12'>
                     <form onSubmit={handleSubmit} className='text-black flex flex-col items-start justify-center w-full'>

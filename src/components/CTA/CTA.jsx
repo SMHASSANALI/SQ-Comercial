@@ -13,6 +13,7 @@ const CTA = () => {
                 <div className='pt-8 mx-auto'>
                     <ScrollLink
                         to='Contact'
+                        offset={-50}
                         smooth={true}
                         duration={500}
                         className='cursor-pointer px-6 py-2 text-white font-bold md:text-lg bg-orangeAccent border border-orangeAccent hover:border-orangeAccent-600 hover:bg-orangeAccent-600'

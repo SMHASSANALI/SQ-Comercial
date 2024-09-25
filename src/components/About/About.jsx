@@ -24,6 +24,7 @@ const About = () => {
                         <ScrollLink
                             to='Team'
                             smooth={true}
+                            offset={-50}
                             duration={500}
                             className='cursor-pointer px-6 py-2 text-orangeAccent font-bold md:text-lg border border-orangeAccent'
                         >
