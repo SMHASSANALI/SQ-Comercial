@@ -7,8 +7,6 @@ const Contact = () => {
         fullName: '',
         email: '',
         companyName: '',
-        description: '',
-        selectedOption: '', // this will store the selected radio button value
     });
 
     const [error, setError] = useState(null);
@@ -18,13 +16,8 @@ const Contact = () => {
             ...formData,
             [e.target.name]: e.target.value,
         });
-    };
+        console.log(formData);
 
-    const handleSelect = (option) => {
-        setFormData({
-            ...formData,
-            selectedOption: option,
-        });
     };
 
     const handleSubmit = (e) => {
@@ -35,7 +28,7 @@ const Contact = () => {
             return;
         }
 
-        if (!formData.fullName || !formData.email || !formData.description || !formData.selectedOption) {
+        if (!formData.fullName || !formData.email) {
             setError('Please fill all required fields and select an option.');
             return;
         }
@@ -48,8 +41,6 @@ const Contact = () => {
             fullName: '',
             email: '',
             companyName: '',
-            description: '',
-            selectedOption: ''
         });
 
     };
