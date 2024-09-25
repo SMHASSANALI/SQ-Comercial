@@ -16,8 +16,6 @@ const Contact = () => {
             ...formData,
             [e.target.name]: e.target.value,
         });
-        console.log(formData);
-
     };
 
     const handleSubmit = (e) => {
@@ -34,8 +32,6 @@ const Contact = () => {
         }
 
         setError(null);
-
-        console.log('Form submitted:', formData);
 
         setFormData({
             fullName: '',
